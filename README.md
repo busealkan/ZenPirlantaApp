@@ -11,7 +11,7 @@ Bu projede Zen Pırlanta örnek alınarak recyler viewlerde card itemlar kullan�
 
 ## Clean Simple Architecture
 <p><img align="left" width="244px"; src="https://raw.githubusercontent.com/busealkan/ZenPirlantaApp/master/images/mvmm/mvmm.png"/></p>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></br></br></br></br></br></br></br></br></br>         
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></br></br></br></br></br></br></br></br></br></br></br></br></br></br></br>               
 
 ## Libraries and Tools 
 <li><a href="https://developer.android.com/kotlin/coroutinesa">Coroutine</a></li>
