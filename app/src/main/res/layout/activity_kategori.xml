@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".ui.kategori.KategoriActivity">
+
+    <ImageView
+        android:id="@+id/imgProfil"
+        android:layout_width="@dimen/imgProfilBoyut"
+        android:layout_height="@dimen/imgProfilBoyut"
+        android:layout_marginTop="@dimen/imgProfilMargin"
+        android:layout_marginLeft="@dimen/kategoriMarginLeft"
+        android:foreground="@drawable/circle_image"
+        android:src="@drawable/user"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtKullaniciHosgeldiniz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/logoRengi"
+        android:textSize="@dimen/yaziKucukBoyut"
+        android:layout_marginTop="@dimen/kategoriKullaniciHosgeldinizMarginTop"
+        android:layout_marginLeft="@dimen/kategoriKullaniciHosgeldinizMarginLeft"
+        android:text="@string/hosgeldiniz"
+        app:layout_constraintStart_toEndOf="@+id/imgProfil"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtKullaniciAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/toolsKullaniciAd"
+        android:textColor="@color/logoRengi"
+        android:textSize="@dimen/yaziKucukBoyut"
+        android:layout_marginTop="@dimen/kategoriKullaniciHosgeldinizMarginTop"
+        android:layout_marginLeft="@dimen/kategoriKullaniciAdSoyadMarginLeft"
+        app:layout_constraintStart_toEndOf="@+id/txtKullaniciHosgeldiniz"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtKullaniciSoyad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/kategoriKullaniciHosgeldinizMarginTop"
+        android:layout_marginLeft="@dimen/kategoriKullaniciAdSoyadMarginLeft"
+        android:textColor="@color/logoRengi"
+        android:textSize="@dimen/yaziKucukBoyut"
+        app:layout_constraintStart_toEndOf="@+id/txtKullaniciAd"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/toolsKullaniciSoyad" />
+
+    <Button
+        android:id="@+id/btnKategoriArama"
+        android:layout_width="@dimen/kategoriAramaIconWidth"
+        android:layout_height="@dimen/kategoriAramaHeight"
+        android:layout_marginTop="@dimen/kategoriAramaMarginTop"
+        android:layout_marginRight="@dimen/kategoriAramaMarginTop"
+        android:background="@drawable/btn_search_design"
+        android:drawableLeft="@drawable/search"
+        android:paddingLeft="@dimen/kategoriAramaIconPadding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/searchKategoriArama"
+        app:layout_constraintTop_toBottomOf="@+id/imgProfil" />
+
+    <SearchView
+        android:id="@+id/searchKategoriArama"
+        android:layout_width="@dimen/kategoriAramaWidth"
+        android:layout_height="@dimen/kategoriAramaHeight"
+        android:layout_marginTop="@dimen/kategoriAramaMarginTop"
+        android:layout_marginLeft="@dimen/kategoriMarginLeft"
+        android:background="@drawable/txt_search_design"
+        android:textCursorDrawable="@drawable/color_cursor"
+        android:theme="@style/WhiteCursorSearchView"
+        android:inputType="textPersonName"
+        android:queryHint="@string/aranacakUrunAdi"
+        android:iconifiedByDefault="false"
+        android:textColor="@color/logoYaziRengiSiyah"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgProfil" />
+
+    <TextView
+        android:id="@+id/txtKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/kategoriMarginLeft"
+        android:layout_marginTop="@dimen/kategoriAramaMarginTop"
+        android:text="@string/kategoriler"
+        android:textColor="@color/logoRengi"
+        android:textSize="@dimen/yaziKucukBoyut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/searchKategoriArama" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="@dimen/kategoriRcvMarginTop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKategori"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/kategoriRcvMarginLeft"
+            >
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvKategoriler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:listitem="@layout/cardview_kategori" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

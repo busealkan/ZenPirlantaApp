@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item >
+        <shape android:shape="oval">
+            <solid android:color="@color/colorTransparent"/>
+            <size android:height="@dimen/paddingBoyut"
+                android:width="@dimen/paddingBoyut"/>
+            <stroke android:width="@dimen/switchStroke"
+                android:color="@color/white"
+                />
+
+        </shape>
+    </item>
+
+
+    <item android:drawable="@drawable/gridlayout"
+        android:bottom="@dimen/switchMargin"
+        android:top="@dimen/switchMargin"
+        android:left="@dimen/switchMargin"
+        android:right="@dimen/switchMargin"
+        />
+
+
+</layer-list>

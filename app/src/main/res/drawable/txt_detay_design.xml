@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:bottom="@dimen/kategoriAramaBorderRightTopBottom"
+        android:left="@dimen/kategoriAramaBorderLeft"
+        android:right="@dimen/kategoriAramaBorderLeft"
+        android:top="@dimen/kategoriAramaBorderLeft">
+        <shape android:shape="rectangle" >
+            <stroke
+                android:width="@dimen/kategoriAramaBorderBoyut"
+                android:color="@color/detayCardView" />
+        </shape>
+    </item>
+
+</layer-list>

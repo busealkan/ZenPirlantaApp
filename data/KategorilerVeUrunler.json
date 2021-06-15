@@ -1,0 +1,575 @@
+[{
+		"kategoriAdi": "Pırlanta Yüzük",
+		"kategoriResimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/kategoriImages/pirlantayuzuk.jpg",
+		"urunler": [{
+				"urunAdi": "0.10 Karat Aşk Pusulası 5 Taş Pırlanta Yüzük",
+				"urunFiyat": "1.780 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_10KaratAskPusulasi5TasPirlantaYuzuk.jpg",
+				"urunDetay": {
+					"kod": "3001009340",
+					"agirlik": "1.55 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "SI",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.10 Karat",
+					"tasAdet": "5",
+					"renk": "G",
+					"aciklamaBaslik": "AŞK PUSULASI",
+					"aciklama": "Pırlantalar kuzeyden güneye, doğudan batıya her yerde sonsuz aşkın ve ömür boyu kalıcılığın simgesidir. Dünyanın neresinde olursanız olun kalbinizdeki aşk pusulanız olup size doğru yolu gösterir."
+
+				}
+			},
+			{
+				"urunAdi": "0.30 Karat Tamtur Pırlanta Yüzük",
+				"urunFiyat": "4.080 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_30KaratTamturPirlantaYuzuk.jpg",
+				"urunDetay": {
+					"kod": "3000692558",
+					"agirlik": "1.82 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.30 Karat",
+					"tasAdet": "32",
+					"renk": "G",
+					"aciklamaBaslik": "ZEN TAMTUR",
+					"aciklama": "Aşkın sembolü pırlantalar, sonsuzluğu temsil eden daire boyunca sıralanıyor. Bu nedenle tamtur yüzükler, sonsuzluk yüzükleri olarak anılır ve ömür boyu süren aşkı simgeler.  Tamtur yüzüklerin anlamı, dairenin sonsuzluğu temsil eden güçlü bir sembol olduğuna inanılan Eski Mısır’dan geliyor. Mısırlılar ayrıca bir kadın ile bir erkek arasındaki evlilik bağının ölümle bile kopamayacak kadar güçlü olduğuna inanıyorlardı. "
+
+				}
+			},
+			{
+				"urunAdi": "0.39 Karat Tria Pırlanta Yüzük",
+				"urunFiyat": "7.280 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_39KaratTriaTektasPirlantaYuzuk.jpg",
+				"urunDetay": {
+					"kod": "3000536298",
+					"agirlik": "2.53 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.39 Karat",
+					"tasAdet": "14",
+					"renk": "G",
+					"aciklamaBaslik": "TRIA",
+					"aciklama": "Aşkımızın dünü, bugünü, yarını”… Adını Latincede “üç“ anlamına gelen “tria“dan alan tasarımlar, gerçek aşkın zamana asla yenilmeyeceğini ve yıllar geçtikçe daha da güçleneceğini anlatır."
+				}
+			},
+			{
+				"urunAdi": "0.16 Karat Işık Yolu Tektaş Pırlanta Yüzük",
+				"urunFiyat": "2.980 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_16KaratIsikYoluTektasPirlantaYuzuk.jpg",
+				"urunDetay": {
+					"kod": "3000395577",
+					"agirlik": "1.90 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.16 Karat",
+					"tasAdet": "15",
+					"renk": "G",
+					"aciklamaBaslik": "IŞIK YOLU",
+					"aciklama": "Işık Yolu modelinde ortadaki pırlanta aşkınızı simgelerken, iki tarafa doğru uzanan pırlantalar sevdiğiniz kişi ile birlikte ortak hayallerinizin peşinden yürüdüğünüz ışıl ışıl yolu temsil ediyor. Tüm yollar, aşkınızın gücünde birleşiyor. "
+				}
+			},
+			{
+				"urunAdi": "0.22 Karat Baget Pırlanta Yüzük",
+				"urunFiyat": "2.780 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_22KaratBagetPirlantaYuzuk.jpg",
+				"urunDetay": {
+					"kod": "3001060379",
+					"agirlik": "1.90 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "SI",
+					"sekil": "Baget",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.22 Karat",
+					"tasAdet": "25",
+					"renk": "G",
+					"aciklamaBaslik": "ZEN BAGET",
+					"aciklama": "Mücevher dünyasının en sevilenleri arasında yer alan baget pırlantalar, modern, zarif ve sofistike bir stil yaratarak Zen baget modellerine hayat veriyor."
+				}
+			}, {
+				"urunAdi": "0.40 Karat Aşk Pusulası 7 Taş Pırlanta Yüzük",
+				"urunFiyat": "7.780 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_40KaratAskPusulasi7TasPirlantaYuzuk.jpg",
+				"urunDetay": {
+					"kod": "3000536388",
+					"agirlik": "3.71 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.40 Karat",
+					"tasAdet": "7",
+					"renk": "G",
+					"aciklamaBaslik": "AŞK PUSULASI",
+					"aciklama": "Pırlantalar kuzeyden güneye, doğudan batıya her yerde sonsuz aşkın ve ömür boyu kalıcılığın simgesidir. Dünyanın neresinde olursanız olun kalbinizdeki aşk pusulanız olup size doğru yolu gösterir."
+				}
+			}
+		]
+	},
+	{
+		"kategoriAdi": "Pırlanta Kolye",
+		"kategoriResimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/kategoriImages/pirlantakolye.jpg",
+		"urunler": [{
+				"urunAdi": "0.14 Karat Baget Pırlanta Kolye",
+				"urunFiyat": "2.880 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_14KaratBagetPirlantaKolye.jpg",
+				"urunDetay": {
+					"kod": "3000899141",
+					"agirlik": "1.99 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS/SI",
+					"sekil": "Baget",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.14 Karat",
+					"tasAdet": "5",
+					"renk": "G",
+					"aciklamaBaslik": "ZEN BAGET",
+					"aciklama": "Mücevher dünyasının en sevilenleri arasında yer alan baget pırlantalar, modern, zarif ve sofistike bir stil yaratarak Zen baget modellerine hayat veriyor."
+				}
+			},
+			{
+				"urunAdi": "0.10 Karat Prenses Kesim Kare Tektaş Pırlanta Kolye",
+				"urunFiyat": "2.480 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_10KaratPrensesKesimKareTektasPirlantaKolye.jpg",
+				"urunDetay": {
+					"kod": "3000691311",
+					"agirlik": "1.34 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "SI",
+					"sekil": "Prenses",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.10 Karat",
+					"tasAdet": "1",
+					"renk": "G",
+					"aciklamaBaslik": "PRENSES ZENTAŞ",
+					"aciklama": "Günümüz aşk masallarının zarif prensesi olan bu model, ismini pırlantanın şeklinden alıyor. Kare şeklindeki prenses kesim pırlanta, modern bir stili tercih edenler için ideal. "
+				}
+			},
+			{
+				"urunAdi": "0.24 Karat Feniks Pırlantalı Zümrüt Kolye",
+				"urunFiyat": "2.480 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_24KaratFeniksPirlantaliZumrutKolye.jpg",
+				"urunDetay": {
+					"kod": "3000957657",
+					"agirlik": "1.00 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS/SI",
+					"sekil": "Single Cut",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.24 Karat",
+					"tasAdet": "14",
+					"renk": "G",
+					"aciklamaBaslik": "FENİKS",
+					"aciklama": "Adını efsanevi ateş kuşu Feniks’ten alan bu tasarımlar, renkli değerli taşlar zümrüt, safir, yakut ile pırlantaların uyumlu dansını yansıtıyor. Pers mitolojisinde Simurg, Türk mitolojisinde Zümrüdü Anka gibi isimlerle birçok ulusun efsanelerinde yer alan Feniks’in gözleri yıldızlar gibi parlaktır. Rengârenk tüyleri ve rengi farklı efsanelere göre kızıl, mavi ya da yeşil olarak değişen bir kuyruğu vardır. 500 -1000 yıl gibi çok uzun bir yaşam sürer ve hayatının sonuna doğru kendine dallardan bir yuva yaparak ateşe verir. Yuvayla beraber kendi de yanar ve küllerinden yeniden doğar. Bu sonsuza dek böyle devam eder. Sonsuz aşkın simgesi pırlantalar, rengini Feniks’in kuyruğundan alan safir, yakut, zümrütü çepeçevre sararak ölümsüzlüğü ve kalıcılığı vurguluyor."
+
+				}
+			},
+			{
+				"urunAdi": "0.51 Karat Feniks Pırlantalı Safir Kolye",
+				"urunFiyat": "2.380 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_51KaratFeniksPirlantaliSafirKolye.jpg",
+				"urunDetay": {
+					"kod": "3000954742",
+					"agirlik": "1.10 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS/SI",
+					"sekil": "Single Cut",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.51 Karat",
+					"tasAdet": "13",
+					"renk": "G",
+					"aciklamaBaslik": "FENİKS",
+					"aciklama": "Adını efsanevi ateş kuşu Feniks’ten alan bu tasarımlar, renkli değerli taşlar zümrüt, safir, yakut ile pırlantaların uyumlu dansını yansıtıyor. Pers mitolojisinde Simurg, Türk mitolojisinde Zümrüdü Anka gibi isimlerle birçok ulusun efsanelerinde yer alan Feniks’in gözleri yıldızlar gibi parlaktır. Rengârenk tüyleri ve rengi farklı efsanelere göre kızıl, mavi ya da yeşil olarak değişen bir kuyruğu vardır. 500 -1000 yıl gibi çok uzun bir yaşam sürer ve hayatının sonuna doğru kendine dallardan bir yuva yaparak ateşe verir. Yuvayla beraber kendi de yanar ve küllerinden yeniden doğar. Bu sonsuza dek böyle devam eder. Sonsuz aşkın simgesi pırlantalar, rengini Feniks’in kuyruğundan alan safir, yakut, zümrütü çepeçevre sararak ölümsüzlüğü ve kalıcılığı vurguluyor."
+				}
+			},
+			{
+				"urunAdi": "0.27 Karat Pırlanta Gerdanlık",
+				"urunFiyat": "18.169 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_27KaratPirlantaGerdanlik.jpg",
+				"urunDetay": {
+					"kod": "3000549034",
+					"agirlik": "13.44 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.27 Karat",
+					"tasAdet": "85",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.45 Karat Reina Pırlanta Kolye",
+				"urunFiyat": "6.054 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_45KaratReinaPirlantaKolye.jpg",
+				"urunDetay": {
+					"kod": "3000381095",
+					"agirlik": "2.10 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.45 Karat",
+					"tasAdet": "22",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			}
+		]
+
+	},
+	{
+		"kategoriAdi": "Pırlanta Küpe",
+		"kategoriResimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/kategoriImages/pirlantakupe.jpg",
+		"urunler": [{
+				"urunAdi": "0.08 Karat Tektaş Pırlanta Küpe",
+				"urunFiyat": "1.480 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_08KaratTektasPirlantaKupe.jpg",
+				"urunDetay": {
+					"kod": "3000695685",
+					"agirlik": "0.95 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.08 Karat",
+					"tasAdet": "2",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.30 Karat Baget Pırlanta Küpe",
+				"urunFiyat": "3.880 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_30KaratBagetPirlantaKupe.jpg",
+				"urunDetay": {
+					"kod": "3000878539",
+					"agirlik": "2.50 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "SI",
+					"sekil": "Baget",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.30 Karat",
+					"tasAdet": "10",
+					"renk": "G",
+					"aciklamaBaslik": "ZEN BAGET",
+					"aciklama": "Mücevher dünyasının en sevilenleri arasında yer alan baget pırlantalar, modern, zarif ve sofistike bir stil yaratarak Zen baget modellerine hayat veriyor."
+				}
+			},
+			{
+				"urunAdi": "0.84 Karat Pırlantalı Safir Küpe",
+				"urunFiyat": "2.480 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_84KaratPirlantaliSafirKupe.jpg",
+				"urunDetay": {
+					"kod": "3000954753",
+					"agirlik": "1.00 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.84 Karat",
+					"tasAdet": "8",
+					"renk": "G",
+					"aciklamaBaslik": "FENİKS",
+					"aciklama": "Adını efsanevi ateş kuşu Feniks’ten alan bu tasarımlar, renkli değerli taşlar zümrüt, safir, yakut ile pırlantaların uyumlu dansını yansıtıyor. Pers mitolojisinde Simurg, Türk mitolojisinde Zümrüdü Anka gibi isimlerle birçok ulusun efsanelerinde yer alan Feniks’in gözleri yıldızlar gibi parlaktır. Rengârenk tüyleri ve rengi farklı efsanelere göre kızıl, mavi ya da yeşil olarak değişen bir kuyruğu vardır. 500 -1000 yıl gibi çok uzun bir yaşam sürer ve hayatının sonuna doğru kendine dallardan bir yuva yaparak ateşe verir. Yuvayla beraber kendi de yanar ve küllerinden yeniden doğar. Bu sonsuza dek böyle devam eder. Sonsuz aşkın simgesi pırlantalar, rengini Feniks’in kuyruğundan alan safir, yakut, zümrütü çepeçevre sararak ölümsüzlüğü ve kalıcılığı vurguluyor."
+				}
+			},
+			{
+				"urunAdi": "0.44 Karat Reina Pırlanta Küpe",
+				"urunFiyat": "5.580 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_44KaratReinaPirlantaKupe.jpg",
+				"urunDetay": {
+					"kod": "3000536289",
+					"agirlik": "1.43 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.44 Karat",
+					"tasAdet": "14",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.72 Karat Feniks Pırlantalı Zümrüt Küpe",
+				"urunFiyat": "3.780 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_72KaratFeniksPirlantaliZumrutKupe.jpg",
+				"urunDetay": {
+					"kod": "3000957646",
+					"agirlik": "1.65 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS/SI",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.72 Karat",
+					"tasAdet": "28",
+					"renk": "G",
+					"aciklamaBaslik": "FENİKS",
+					"aciklama": "Adını efsanevi ateş kuşu Feniks’ten alan bu tasarımlar, renkli değerli taşlar zümrüt, safir, yakut ile pırlantaların uyumlu dansını yansıtıyor. Pers mitolojisinde Simurg, Türk mitolojisinde Zümrüdü Anka gibi isimlerle birçok ulusun efsanelerinde yer alan Feniks’in gözleri yıldızlar gibi parlaktır. Rengârenk tüyleri ve rengi farklı efsanelere göre kızıl, mavi ya da yeşil olarak değişen bir kuyruğu vardır. 500 -1000 yıl gibi çok uzun bir yaşam sürer ve hayatının sonuna doğru kendine dallardan bir yuva yaparak ateşe verir. Yuvayla beraber kendi de yanar ve küllerinden yeniden doğar. Bu sonsuza dek böyle devam eder. Sonsuz aşkın simgesi pırlantalar, rengini Feniks’in kuyruğundan alan safir, yakut, zümrütü çepeçevre sararak ölümsüzlüğü ve kalıcılığı vurguluyor."
+				}
+			},
+			{
+				"urunAdi": "0.60 Karat Tria Pırlanta Küpe",
+				"urunFiyat": "10.780 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_60KaratTriaPirlantaKupe.jpg",
+				"urunDetay": {
+					"kod": "3000541416",
+					"agirlik": "3.28 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.60 Karat",
+					"tasAdet": "6",
+					"renk": "G",
+					"aciklamaBaslik": "TRIA",
+					"aciklama": "Aşkımızın dünü, bugünü, yarını”… Adını Latincede “üç“ anlamına gelen “tria“dan alan tasarımlar, gerçek aşkın zamana asla yenilmeyeceğini ve yıllar geçtikçe daha da güçleneceğini anlatır."
+				}
+			}
+		]
+	},
+	{
+		"kategoriAdi": "Pırlanta Bileklik",
+		"kategoriResimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/kategoriImages/pirlantabileklik.jpg",
+		"urunler": [{
+				"urunAdi": "0.20 Karat Baget Pırlanta Bileklik",
+				"urunFiyat": "6.280 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_20KaratBagetPirlantaBileklik.jpg",
+				"urunDetay": {
+					"kod": "3001007199",
+					"agirlik": "4.37 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Baget",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.20 Karat",
+					"tasAdet": "35",
+					"renk": "G",
+					"aciklamaBaslik": "ZEN BAGET",
+					"aciklama": "Mücevher dünyasının en sevilenleri arasında yer alan baget pırlantalar, modern, zarif ve sofistike bir stil yaratarak Zen baget modellerine hayat veriyor."
+				}
+			},
+			{
+				"urunAdi": "1.00 Karat Işık Seli Pırlanta Bileklik",
+				"urunFiyat": "10.880 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/1_00KaratIsikSelPirlantaBileklik.jpg",
+				"urunDetay": {
+					"kod": "3000914198",
+					"agirlik": "5.89 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "SI",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "1.00 Karat",
+					"tasAdet": "60",
+					"renk": "G",
+					"aciklamaBaslik": "IŞIK SELİ BİLEKLİK",
+					"aciklama": "Tüm bileği zarifçe saran muhteşem bir ışıltı oluşturan ışık seli bileklikler, birbirini seven iki kişi arasındaki sonsuz aşk çemberini simgeliyor."
+				}
+			},
+			{
+				"urunAdi": "0.42 Karat Pırlantalı Safir Bileklik",
+				"urunFiyat": "2.380 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_42KaratPirlantaliSafirBileklik.jpg",
+				"urunDetay": {
+					"kod": "3000957651",
+					"agirlik": "1.40 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS",
+					"sekil": "Single Cut",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.42 Karat",
+					"tasAdet": "14",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.18 Karat Tria Pırlanta Bileklik",
+				"urunFiyat": "4.280 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_18KaratTriaPirlantaBileklik.jpg",
+				"urunDetay": {
+					"kod": "3000536348",
+					"agirlik": "2.09 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.18 Karat",
+					"tasAdet": "3",
+					"renk": "G",
+					"aciklamaBaslik": "TRIA",
+					"aciklama": "Aşkımızın dünü, bugünü, yarını”… Adını Latincede “üç“ anlamına gelen “tria“dan alan tasarımlar, gerçek aşkın zamana asla yenilmeyeceğini ve yıllar geçtikçe daha da güçleneceğini anlatır."
+				}
+			}
+		]
+	},
+	{
+		"kategoriAdi": "Elmas",
+		"kategoriResimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/kategoriImages/elmas.jpg",
+		"urunler": [{
+				"urunAdi": "0.17 Karat Nazende Elmas Yüzük",
+				"urunFiyat": "3.180 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_17KaratNazendeElmasYuzuk.jpg",
+				"urunDetay": {
+					"kod": "3000536488",
+					"agirlik": "2.48 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS",
+					"sekil": "Damla",
+					"altinTuru": "Pembe Altın ve Gümüş",
+					"tasBuyuklugu": "0.17 Karat",
+					"tasAdet": "16",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.20 Karat Nazende Elmas Kolye",
+				"urunFiyat": "3.180 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_20KaratNazendeElmasKolye.jpg",
+				"urunDetay": {
+					"kod": "3000536490",
+					"agirlik": "2.54 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS",
+					"sekil": "Damla",
+					"altinTuru": "Pembe Altın",
+					"tasBuyuklugu": "0.20 Karat",
+					"tasAdet": "16",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.29 Karat Nazende Elmas Küpe",
+				"urunFiyat": "3.480 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_29KaratNazendeElmasKupe.jpg",
+				"urunDetay": {
+					"kod": "3000536492",
+					"agirlik": "2.04 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "vs",
+					"sekil": "Damla",
+					"altinTuru": "Pembe Altın ve Gümüş",
+					"tasBuyuklugu": "0.29 Karat",
+					"tasAdet": "32",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.19 Karat Nazende Elmas Bileklik",
+				"urunFiyat": "4.580 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_19KaratNazendeElmasBileklik.jpg",
+				"urunDetay": {
+					"kod": "3000536494",
+					"agirlik": "4.20 gr",
+					"ayar": "8 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Pembe Altın ve Gümüş",
+					"tasBuyuklugu": "0.19 Karat",
+					"tasAdet": "16",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			}
+		]
+
+	},
+	{
+		"kategoriAdi": "Forevermark",
+		"kategoriResimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/kategoriImages/forevermark.jpg",
+		"urunler": [{
+				"urunAdi": "0.15 Karat Forevermark Tektaş Pırlanta Kolye",
+				"urunFiyat": "4.480 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_15KaratForevermarkTektasPirlantaKolye.jpg",
+				"urunDetay": {
+					"kod": "3000662645",
+					"agirlik": "1.43 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.15 Karat",
+					"tasAdet": "1",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.30 Karat Forevermark Setting Koleksiyonu Tektaş Pırlanta Küpe",
+				"urunFiyat": "5.780 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_30KaratForevermarkSettingKoleksiyonuTektasPirlantaKupe.jpg",
+				"urunDetay": {
+					"kod": "3000662619",
+					"agirlik": "1.01 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.30 Karat",
+					"tasAdet": "2",
+					"renk": "G",
+					"aciklamaBaslik": "",
+					"aciklama": ""
+				}
+			},
+			{
+				"urunAdi": "0.46 Karat Forevermark Tria Pırlanta Kolye",
+				"urunFiyat": "11.780 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_46KaratForevermarkTriaPirlantaKolye.jpg",
+				"urunDetay": {
+					"kod": "3000536458",
+					"agirlik": "2.65 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.46 Karat",
+					"tasAdet": "3",
+					"renk": "G",
+					"aciklamaBaslik": "TRIA",
+					"aciklama": "Aşkımızın dünü, bugünü, yarını”… Adını Latincede “üç“ anlamına gelen “tria“dan alan tasarımlar, gerçek aşkın zamana asla yenilmeyeceğini ve yıllar geçtikçe daha da güçleneceğini anlatır."
+				}
+			},
+			{
+				"urunAdi": "0.70 Karat Aşk Pusulası Forevermark Beştaş Pırlanta Yüzük",
+				"urunFiyat": "13.380 TL",
+				"urunResim": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/urunlerImages/0_70KaratAskPusulasiForevermarkTeBestasPirlantaYuzuk.jpg",
+				"urunDetay": {
+					"kod": "3000698906",
+					"agirlik": "3.80 gr",
+					"ayar": "14 Ayar",
+					"berraklik": "VS",
+					"sekil": "Yuvarlak",
+					"altinTuru": "Beyaz Altın",
+					"tasBuyuklugu": "0.70 Karat",
+					"tasAdet": "5",
+					"renk": "G",
+					"aciklamaBaslik": "AŞK PUSULASI",
+					"aciklama": "Pırlantalar kuzeyden güneye, doğudan batıya her yerde sonsuz aşkın ve ömür boyu kalıcılığın simgesidir. Dünyanın neresinde olursanız olun kalbinizdeki aşk pusulanız olup size doğru yolu gösterir."
+				}
+			}
+		]
+	}
+]

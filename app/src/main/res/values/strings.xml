@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">ZenPirlanta</string>
+    <string name="alertTitle">İnternet Bağlantınız Yok</string>
+    <string name="alertMessage">Uygulamayı kullanmak için internete bağlanın.</string>
+    <string name="alertNegativeButon">Kapat</string>
+    <string name="alertPozitiveButon">İnterneti Aç</string>
+
+    <string name="ePosta">E-Posta</string>
+    <string name="sifre">Şifre</string>
+    <string name="girisYap">Giriş Yap</string>
+    <string name="bosKontrol"></string>
+    <string name="bosluk">   </string>
+
+
+    <string name="toastBosAlan">Lütfen Boş Alanları Doldurunuz</string>
+    <string name="toastEPostaBulunamadi">Kayıtlı E-Posta Adresi Bulunamadı</string>
+    <string name="toastEPostaFormat">E-posta Formatını Yanlış Girdiniz</string>
+    <string name="toastGirisBasarisiz">Kullanıcı Adınız Veya Şifreniz Eşleşmiyor</string>
+
+    <string name="hosgeldiniz">Hoşgeldiniz, </string>
+    <string name="toolsKullaniciAd">Ad</string>
+    <string name="toolsKullaniciSoyad">Soyad</string>
+    <string name="aranacakUrunAdi">Aranılacak Ürün Adını Giriniz</string>
+
+    <string name="alertCikisTitle">Çıkış Yap?</string>
+    <string name="alertCikisMessage">Uygulamadan Çıkış Yapılsın Mı?</string>
+    <string name="alertCikisNegativeButon">Çıkış</string>
+    <string name="alertCikisPozitifButon">İptal</string>
+
+    <string name="toolsUrunIsim">Pırlanta Kolye</string>
+    <string name="toolsUrunFiyat">2.280 TL</string>
+
+
+    <string name="kategoriler">Kategoriler</string>
+
+    <string name="progressMessage">Lütfen bekleyiniz..</string>
+
+    <string name="urunler">Ürünler</string>
+
+    <string name="sirala">Sırala</string>
+    <string name="ismeGoreArtan">İsme Göre Artan</string>
+    <string name="ismeGoreAzalan">İsme Göre Azalan</string>
+
+
+    <string name="urunDetayTas">Taş</string>
+    <string name="urunDetayTasBuyuklugu">Taş Büyüklüğü</string>
+    <string name="urunDetayTasAdet">Adet</string>
+    <string name="urunDetayRenk">Renk</string>
+    <string name="urunDetayBerraklik">Berraklık</string>
+    <string name="urunDetayPirlanta">Pırlanta</string>
+    <string name="urunDetaySekil">Şekil</string>
+
+    <string name="anaSayfa">ANA SAYFA /</string>
+    <string name="detaySlash"> / </string>
+    <string name="pirlantaYuzuk">PIRLANTA YÜZÜK</string>
+    <string name="hemenAl">HEMEN AL</string>
+    <string name="urunKodu">Ürün Kodu: </string>
+
+
+    <string name="shapeRectangle">rectangle</string>
+
+</resources>

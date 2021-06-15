@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logoYaziRengi"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".ui.login.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imgLogoLogin"
+        android:layout_width="@dimen/logoBoyut"
+        android:layout_height="@dimen/logoBoyut"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.188"
+        app:srcCompat="@drawable/zenlogo" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ePostaLayout"
+        android:layout_width="@dimen/emailBoyut"
+        android:layout_height="@dimen/loginHeight"
+        android:layout_marginTop="@dimen/loginMargin"
+        android:textColorHint="@color/hintColor"
+        app:passwordToggleEnabled="false"
+        app:startIconDrawable="@drawable/usericon"
+        app:startIconTint="@color/logoRengi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgLogoLogin"
+        app:hintTextAppearance="@style/HelperTextAppearance"
+        app:helperTextTextAppearance="@style/HelperTextAppearance"
+        >
+
+
+        <EditText
+            android:id="@+id/txtEPosta"
+            android:layout_width="@dimen/emailBoyut"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/logoRengi"
+            android:hint="@string/ePosta"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/logoYaziRengiSiyah"
+            android:textCursorDrawable="@drawable/login_cursor_design"
+            android:textSize="@dimen/yaziKucukBoyut"
+            android:theme="@style/MyEditTextTheme" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/sifreLayout"
+        android:layout_width="@dimen/emailBoyut"
+        android:layout_height="@dimen/loginHeight"
+        android:layout_marginTop="@dimen/loginMargin"
+        android:textColorHint="@color/hintColor"
+        app:passwordToggleEnabled="true"
+        app:startIconDrawable="@drawable/password"
+        app:startIconTint="@color/logoRengi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ePostaLayout"
+        app:hintTextAppearance="@style/HelperTextAppearance"
+        app:helperTextTextAppearance="@style/HelperTextAppearance"
+        >
+
+
+        <EditText
+            android:id="@+id/txtSifre"
+            android:layout_width="@dimen/emailBoyut"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:hint="@string/sifre"
+            android:backgroundTint="@color/logoRengi"
+            android:textColor="@color/logoYaziRengiSiyah"
+            android:textCursorDrawable="@drawable/login_cursor_design"
+            android:textSize="@dimen/yaziKucukBoyut"
+            android:theme="@style/MyEditTextTheme" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:id="@+id/btnGirisYap"
+        android:layout_width="@dimen/emailBoyut"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/loginMargin"
+        android:background="@color/logoRengi"
+        android:drawableLeft="@drawable/login"
+        android:paddingRight="@dimen/loginPadding"
+        android:text="@string/girisYap"
+        android:textAllCaps="false"
+        android:textColor="@color/logoYaziRengi"
+        android:textSize="@dimen/yaziBoyut"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sifreLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

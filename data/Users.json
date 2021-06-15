@@ -1,0 +1,23 @@
+[{
+		"name": "Buse",
+		"surname": "Alkan",
+		"ePosta": "buse_alkan10@hotmail.com",
+		"password": "1907",
+		"resimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/userImages/user1.png"
+	},
+	{
+		"name": "Muhammet",
+		"surname": "Çağatay",
+		"ePosta": "cagatay53@yandex.com",
+		"password": "cagatay",
+		"resimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/userImages/user2.jpg"
+
+	},
+	{
+		"name": "Enes",
+		"surname": "Alkan",
+		"ePosta": "enesalkan18@hotmail.com",
+		"password": "Fenerbahçe",
+		"resimUrl": "https://raw.githubusercontent.com/busealkan/FinalDeneme/main/userImages/user3.jpg"
+	}
+]

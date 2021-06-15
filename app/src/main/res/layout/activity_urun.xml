@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logoYaziRengi"
+    tools:context=".ui.urun.UrunActivity">
+
+    <TextView
+        android:id="@+id/txtUrunlerBaslik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/kategoriAramaMarginTop"
+        android:layout_marginLeft="@dimen/kategoriMarginLeft"
+        android:text="@string/urunler"
+        android:textColor="@color/logoRengi"
+        android:textSize="@dimen/yaziOrtaBoyut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSirala"
+        android:layout_width="@dimen/urunSiralaWidth"
+        android:layout_height="@dimen/urunSiralaHeight"
+        android:layout_marginLeft="@dimen/kategoriMarginLeft"
+        android:layout_marginTop="@dimen/kategoriAramaMarginTop"
+        android:paddingLeft="@dimen/kategoriTextPadding"
+        android:background="@drawable/edit_text_design"
+        android:text="@string/sirala"
+        android:drawableRight="@drawable/downarrow"
+        android:textSize="@dimen/yaziKucukBoyut"
+        android:gravity="start|center"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtUrunlerBaslik" />
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switchLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/urunSiralaHeight"
+        android:layout_marginTop="@dimen/urunSwitchMarginTop"
+        android:layout_marginLeft="@dimen/urunSwitchMarginLeft"
+        android:thumb="@drawable/thumb"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btnSirala"
+        app:layout_constraintTop_toTopOf="parent"
+        app:track="@drawable/track" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:layout_marginTop="@dimen/urunRcvMarginTop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/kategoriRcvMarginLeft">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rcvUrunler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:listitem="@layout/cardview_urun" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

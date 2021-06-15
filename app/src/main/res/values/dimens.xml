@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingBoyut">5dp</dimen>
+    <dimen name="radiusBoyut">18dp</dimen>
+    <dimen name="borderBoyut">3dp</dimen>
+    <dimen name="cursorBoyut">1dp</dimen>
+    <dimen name="logoBoyut">200dp</dimen>
+    <dimen name="yaziBoyut">25sp</dimen>
+    <dimen name="yaziKucukBoyut">18sp</dimen>
+    <dimen name="yaziOrtaBoyut">30sp</dimen>
+    <dimen name="yaziBuyukBoyut">40sp</dimen>
+    <dimen name="imgBannerBoyut">180dp</dimen>
+    <dimen name="matchConstraint">0dp</dimen>
+    <dimen name="cardMargin">10dp</dimen>
+    <dimen name="cardMarginRight">0dp</dimen>
+    <dimen name="loginImgMargin">60dp</dimen>
+    <dimen name="loginMargin">40dp</dimen>
+    <dimen name="loginPadding">48dp</dimen>
+    <dimen name="loginTextPadding">65dp</dimen>
+    <dimen name="loginHeight">68dp</dimen>
+    <dimen name="loginSifreLayoutHeight">90dp</dimen>
+
+
+    <dimen name="padding">10dp</dimen>
+    <dimen name="cardTextBoyut">230dp</dimen>
+    <dimen name="imgKapakBoyut">250dp</dimen>
+    <dimen name="emailBoyut">295dp</dimen>
+    <dimen name="imgProfilBoyut">80dp</dimen>
+    <dimen name="imgProfilMargin">20dp</dimen>
+    <dimen name="kategoriKullaniciHosgeldinizMarginTop">50dp</dimen>
+    <dimen name="kategoriKullaniciHosgeldinizMarginLeft">25dp</dimen>
+    <dimen name="kategoriKullaniciAdSoyadMarginLeft">5dp</dimen>
+
+
+    <dimen name="kategoriMarginLeft">15dp</dimen>
+
+    <dimen name="kategoriAramaMarginTop">20dp</dimen>
+    <dimen name="kategoriAramaWidth">322dp</dimen>
+    <dimen name="kategoriAramaHeight">50dp</dimen>
+    <dimen name="kategoriAramaIconWidth">61dp</dimen>
+    <dimen name="kategoriTextPadding">15dp</dimen>
+    <dimen name="kategoriAramaIconPadding">-8dp</dimen>
+    <dimen name="kategoriAramaBorderBoyut">1dp</dimen>
+
+    <dimen name="kategoriAramaBorderRightTopBottom">0dp</dimen>
+    <dimen name="kategoriAramaBorderLeft">-2dp</dimen>
+
+    <dimen name="kategoriRcvWidth">40dp</dimen>
+    <dimen name="kategoriRcvMarginTop">238dp</dimen>
+    <dimen name="kategoriRcvMarginLeft">5dp</dimen>
+    <dimen name="kategoriRcvMarginRight">15dp</dimen>
+
+
+    <dimen name="kategoriCardViewPadding">16dp</dimen>
+
+    <dimen name="kategoriGridViewHeight">100dp</dimen>
+    <dimen name="kategoriGridViewWidth">170dp</dimen>
+
+    <dimen name="kategoriGridViewMarginTop">7dp</dimen>
+    <dimen name="kategoriGridViewMarginLeft">37dp</dimen>
+
+    <dimen name="kategoriGridViewImageHeight">70dp</dimen>
+    <dimen name="kategoriGridViewImageWidth">80dp</dimen>
+    <dimen name="kategoriGridViewImageMargin">20dp</dimen>
+    <dimen name="kategoriGridViewImageMarginLeft">40dp</dimen>
+
+    <dimen name="urunSiralaWidth">295dp</dimen>
+    <dimen name="urunSiralaHeight">50dp</dimen>
+
+    <dimen name="urunRcvMarginTop">140dp</dimen>
+
+
+    <dimen name="urunCardViewImageHeight">110dp</dimen>
+    <dimen name="urunCardViewImageWidth">100dp</dimen>
+
+    <dimen name="urunCardViewHeight">230dp</dimen>
+    <dimen name="urunSwitchMarginTop">80dp</dimen>
+    <dimen name="urunSwitchMarginLeft">6dp</dimen>
+    <dimen name="urunCardViewUrunAdiMarginTop">35dp</dimen>
+    <dimen name="urunCardViewUrunAdiMarginLeft">30dp</dimen>
+    <dimen name="urunCardViewMarginBottom">20dp</dimen>
+
+    <dimen name="detayImgBoyut">200dp</dimen>
+    <dimen name="detayImgMarginTop">50dp</dimen>
+    <dimen name="detayUrunAdMarginTop">40dp</dimen>
+
+
+    <dimen name="detayFiyatMarginTop">20dp</dimen>
+    <dimen name="detayFiyatMarginLeft">10dp</dimen>
+
+    <dimen name="detayUrunCardViewHeight">140dp</dimen>
+    <dimen name="detayUrunMarginTop">28dp</dimen>
+
+    <dimen name="detayUrunAciklamaMarginTop">10dp</dimen>
+    <dimen name="detayUrunBaslikMarginTop">20dp</dimen>
+
+    <dimen name="detayUrunBaslikPaddingBottom">4dp</dimen>
+
+    <dimen name="detayUrunBaslikTasWidth">56dp</dimen>
+    <dimen name="detayUrunBaslikTasBuyukluguWidth">100dp</dimen>
+    <dimen name="detayUrunBaslikTasAdetWidth">44dp</dimen>
+    <dimen name="detayUrunBaslikBerraklikWidth">64dp</dimen>
+    <dimen name="detayUrunBaslikTasSekiltWidth">60dp</dimen>
+
+    <dimen name="detayBaslangicMarginTop">24dp</dimen>
+    <dimen name="detayBaslangicMarginLeft">10dp</dimen>
+
+    <dimen name="detayFavoriWidth">40dp</dimen>
+    <dimen name="detayFavoriMarginTop">40dp</dimen>
+
+
+    <dimen name="detayImgLeftWidth">18dp</dimen>
+    <dimen name="detayImgLeftTop">142dp</dimen>
+    <dimen name="detayHemenAlMarginTop">32dp</dimen>
+
+
+    <dimen name="detayUrunKodBaslikMarginLeft">118dp</dimen>
+
+    <dimen name="detayLeftRightMarginTop">150dp</dimen>
+
+    <dimen name="detayFavoriBorder">1dp</dimen>
+
+    <dimen name="innerRadiusRatio">2</dimen>
+
+    <dimen name="thicknessRatio">1</dimen>
+
+    <dimen name="gradientRadius">8dp</dimen>
+
+    <dimen name="switchMargin">2dp</dimen>
+
+    <dimen name="switchStroke">1sp</dimen>
+    <dimen name="trackRadius">100sp</dimen>
+
+
+</resources>

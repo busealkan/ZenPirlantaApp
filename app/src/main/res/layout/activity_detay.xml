@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".ui.detay.DetayActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="@dimen/matchConstraint">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imgUrunDetay"
+                android:layout_width="@dimen/detayImgBoyut"
+                android:layout_height="@dimen/detayImgBoyut"
+                android:layout_marginTop="@dimen/detayImgMarginTop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <TextView
+                android:id="@+id/txtUrunDetayAd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/detayFiyatMarginTop"
+                android:textAlignment="center"
+                android:textColor="@color/logoYaziRengiSiyah"
+                android:textSize="@dimen/yaziBoyut"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgUrunDetay"
+                tools:text="@string/toolsUrunIsim" />
+
+            <TextView
+                android:id="@+id/txtUrunDetayFiyat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/detayFiyatMarginTop"
+
+                android:textColor="@color/logoRengi"
+                android:textSize="@dimen/yaziBoyut"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtUrunKodu"
+                tools:text="@string/toolsUrunFiyat" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/matchConstraint"
+                android:layout_marginLeft="@dimen/detayFiyatMarginLeft"
+                android:layout_marginTop="@dimen/detayFiyatMarginTop"
+                android:layout_marginRight="@dimen/detayFiyatMarginLeft"
+                android:background="@color/detayCardView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtUrunDetayFiyat">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/detayCardView">
+
+                    <TextView
+                        android:id="@+id/txtUrunAgirlik"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/detayFiyatMarginLeft"
+                        android:layout_marginTop="@dimen/detayUrunMarginTop"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textSize="@dimen/yaziKucukBoyut"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="@string/toolsUrunFiyat" />
+
+                    <TextView
+                        android:id="@+id/txtUrunAyar"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunMarginTop"
+                        android:paddingLeft="@dimen/detayUrunBaslikPaddingBottom"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textSize="@dimen/yaziKucukBoyut"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunAgirlik"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="@string/toolsUrunFiyat" />
+
+                    <TextView
+                        android:id="@+id/txtUrunAltinTuru"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunMarginTop"
+                        android:paddingLeft="@dimen/detayUrunBaslikPaddingBottom"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textSize="@dimen/yaziKucukBoyut"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunAyar"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:text="@string/toolsUrunFiyat" />
+
+                    <TextView
+                        android:id="@+id/txtUrunTasBaslik"
+                        android:layout_width="@dimen/detayUrunBaslikTasWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/detayFiyatMarginLeft"
+                        android:layout_marginTop="@dimen/detayUrunBaslikMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayTas"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunAgirlik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunTasBuyukluguBaslik"
+                        android:layout_width="@dimen/detayUrunBaslikTasBuyukluguWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunBaslikMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayTasBuyuklugu"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunTasBaslik"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunAgirlik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunTasAdetBaslik"
+                        android:layout_width="@dimen/detayUrunBaslikTasAdetWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunBaslikMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayTasAdet"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunTasBuyukluguBaslik"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunAgirlik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunTasRenkBaslik"
+                        android:layout_width="@dimen/detayUrunBaslikTasAdetWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunBaslikMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayRenk"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunTasAdetBaslik"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunAgirlik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunTasBerraklikBaslik"
+                        android:layout_width="@dimen/detayUrunBaslikBerraklikWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunBaslikMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingLeft="@dimen/detayUrunBaslikPaddingBottom"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayBerraklik"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunTasRenkBaslik"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunAgirlik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunTasSekilBaslik"
+                        android:layout_width="@dimen/detayUrunBaslikTasSekiltWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunBaslikMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingLeft="@dimen/detayUrunBaslikPaddingBottom"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetaySekil"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunTasBerraklikBaslik"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunAgirlik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunTas"
+                        android:layout_width="@dimen/detayUrunBaslikTasWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/detayFiyatMarginLeft"
+                        android:layout_marginTop="@dimen/detayUrunAciklamaMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayPirlanta"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunTasBaslik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunDetayTasBuyuklugu"
+                        android:layout_width="@dimen/detayUrunBaslikTasBuyukluguWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunAciklamaMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayTasBuyuklugu"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunTas"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunTasBaslik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunDetayTasAdet"
+                        android:layout_width="@dimen/detayUrunBaslikTasAdetWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunAciklamaMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayTasAdet"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunDetayTasBuyuklugu"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunTasBaslik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunDetayTasRenk"
+                        android:layout_width="@dimen/detayUrunBaslikTasAdetWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunAciklamaMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:text="@string/urunDetayRenk"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunDetayTasAdet"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunTasBaslik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunDetayTasBerraklik"
+                        android:layout_width="@dimen/detayUrunBaslikBerraklikWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunAciklamaMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingLeft="@dimen/detayUrunBaslikPaddingBottom"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunDetayTasRenk"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunTasBaslik"
+                        tools:text="@string/urunDetayBerraklik" />
+
+                    <TextView
+                        android:id="@+id/txtUrunDetayTasSekil"
+                        android:layout_width="@dimen/detayUrunBaslikTasSekiltWidth"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/detayUrunAciklamaMarginTop"
+                        android:background="@drawable/txt_detay_design"
+                        android:paddingLeft="@dimen/detayUrunBaslikPaddingBottom"
+                        android:paddingBottom="@dimen/detayUrunBaslikPaddingBottom"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        app:layout_constraintStart_toEndOf="@+id/txtUrunDetayTasBerraklik"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunTasBaslik"
+                        tools:text="@string/urunDetaySekil" />
+
+                    <TextView
+                        android:id="@+id/txtUrunAciklamaBaslik"
+                        android:layout_width="@dimen/matchConstraint"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/detayFiyatMarginLeft"
+                        android:layout_marginTop="@dimen/detayUrunMarginTop"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textStyle="bold"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunTas"
+                        tools:text="@string/urunDetaySekil" />
+
+                    <TextView
+                        android:id="@+id/txtUrunAciklama"
+                        android:layout_width="@dimen/matchConstraint"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/detayFiyatMarginLeft"
+                        android:layout_marginTop="@dimen/detayUrunMarginTop"
+                        android:layout_marginBottom="@dimen/detayUrunMarginTop"
+                        android:textColor="@color/logoYaziRengiSiyah"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/txtUrunAciklamaBaslik"
+                        tools:text="@string/urunDetaySekil" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/btnFavori"
+                android:layout_width="@dimen/detayFavoriWidth"
+                android:layout_height="@dimen/detayFavoriWidth"
+                android:layout_marginLeft="@dimen/detayBaslangicMarginTop"
+                android:layout_marginTop="@dimen/detayFavoriMarginTop"
+                android:background="@drawable/btn_favori_design"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgUrunDetay"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <ImageView
+                android:id="@+id/imgLeft"
+                android:layout_width="@dimen/detayImgLeftWidth"
+                android:layout_height="@dimen/detayImgLeftWidth"
+                android:layout_marginTop="@dimen/detayLeftRightMarginTop"
+                app:layout_constraintEnd_toStartOf="@+id/imgUrunDetay"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/leftarrow" />
+
+            <ImageView
+                android:id="@+id/imgRight"
+                android:layout_width="@dimen/detayImgLeftWidth"
+                android:layout_height="@dimen/detayImgLeftWidth"
+                android:layout_marginTop="@dimen/detayLeftRightMarginTop"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imgUrunDetay"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/rightarrow" />
+
+            <Button
+                android:id="@+id/btnHemenAl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/detayHemenAlMarginTop"
+                android:background="@color/logoRengi"
+                android:text="@string/hemenAl"
+                android:textColor="@color/white"
+                android:textSize="@dimen/yaziKucukBoyut"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView" />
+
+            <TextView
+                android:id="@+id/txtUrunKodu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/detayFiyatMarginLeft"
+                android:layout_marginTop="@dimen/detayFiyatMarginTop"
+                android:textColor="@color/logoYaziRengiSiyah"
+                android:textSize="@dimen/yaziKucukBoyut"
+                android:textStyle="normal"
+                app:layout_constraintStart_toEndOf="@+id/txtUurnKodBaslik"
+                app:layout_constraintTop_toBottomOf="@+id/txtUrunDetayAd"
+                tools:text="@string/toolsUrunFiyat" />
+
+            <TextView
+                android:id="@+id/txtUurnKodBaslik"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/detayUrunKodBaslikMarginLeft"
+                android:layout_marginTop="@dimen/detayFiyatMarginTop"
+                android:text="@string/urunKodu"
+                android:textColor="@color/logoYaziRengiSiyah"
+                android:textSize="@dimen/yaziKucukBoyut"
+                android:textStyle="normal"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtUrunDetayAd" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

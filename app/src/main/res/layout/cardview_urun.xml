@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/cardMargin"
+    android:paddingTop="@dimen/cardMargin"
+    android:paddingRight="@dimen/cardMargin"
+    android:paddingBottom="@dimen/cardMargin">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/urunCard"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/urunCardViewHeight"
+        app:cardMaxElevation="@dimen/cardMargin"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edit_text_design">
+
+            <TextView
+                android:id="@+id/txtUrunAd"
+                android:layout_width="@dimen/matchConstraint"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/kategoriGridViewImageMargin"
+                android:textAlignment="center"
+                android:textColor="@color/logoRengi"
+                android:textSize="@dimen/yaziKucukBoyut"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imgUrun"
+                tools:text="@string/toolsUrunIsim" />
+
+            <ImageView
+                android:id="@+id/imgUrun"
+                android:layout_width="@dimen/kategoriGridViewImageWidth"
+                android:layout_height="@dimen/kategoriGridViewImageHeight"
+                android:layout_marginTop="@dimen/kategoriGridViewImageMargin"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/pirlantakolye" />
+
+
+            <TextView
+                android:id="@+id/txtUrunFiyat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/urunCardViewMarginBottom"
+                android:layout_marginBottom="@dimen/urunCardViewMarginBottom"
+                android:textColor="@color/logoRengi"
+                android:textSize="@dimen/yaziKucukBoyut"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/txtUrunAd"
+                tools:text="@string/toolsUrunFiyat" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
