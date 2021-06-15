@@ -86,50 +86,32 @@
 
 
     <dimen name="detayFiyatMarginTop">20dp</dimen>
-    <dimen name="detayFiyatMarginLeft">10dp</dimen>
+    <dimen name="detayFiyatMarginLeft">3dp</dimen>
 
     <dimen name="detayUrunCardViewHeight">140dp</dimen>
     <dimen name="detayUrunMarginTop">28dp</dimen>
-
     <dimen name="detayUrunAciklamaMarginTop">10dp</dimen>
     <dimen name="detayUrunBaslikMarginTop">20dp</dimen>
-
     <dimen name="detayUrunBaslikPaddingBottom">4dp</dimen>
-
     <dimen name="detayUrunBaslikTasWidth">56dp</dimen>
-    <dimen name="detayUrunBaslikTasBuyukluguWidth">100dp</dimen>
+    <dimen name="detayUrunBaslikTasBuyukluguWidth">115dp</dimen>
     <dimen name="detayUrunBaslikTasAdetWidth">44dp</dimen>
-    <dimen name="detayUrunBaslikBerraklikWidth">64dp</dimen>
-    <dimen name="detayUrunBaslikTasSekiltWidth">60dp</dimen>
-
+    <dimen name="detayUrunBaslikBerraklikWidth">74dp</dimen>
+    <dimen name="detayUrunBaslikTasSekiltWidth">65dp</dimen>
     <dimen name="detayBaslangicMarginTop">24dp</dimen>
     <dimen name="detayBaslangicMarginLeft">10dp</dimen>
-
     <dimen name="detayFavoriWidth">40dp</dimen>
     <dimen name="detayFavoriMarginTop">40dp</dimen>
-
-
     <dimen name="detayImgLeftWidth">18dp</dimen>
     <dimen name="detayImgLeftTop">142dp</dimen>
     <dimen name="detayHemenAlMarginTop">32dp</dimen>
-
-
-    <dimen name="detayUrunKodBaslikMarginLeft">118dp</dimen>
-
+    <dimen name="detayUrunKodBaslikMarginLeft">100dp</dimen>
     <dimen name="detayLeftRightMarginTop">150dp</dimen>
-
     <dimen name="detayFavoriBorder">1dp</dimen>
-
     <dimen name="innerRadiusRatio">2</dimen>
-
     <dimen name="thicknessRatio">1</dimen>
-
     <dimen name="gradientRadius">8dp</dimen>
-
     <dimen name="switchMargin">2dp</dimen>
-
     <dimen name="switchStroke">1sp</dimen>
     <dimen name="trackRadius">100sp</dimen>
-
-
 </resources>
