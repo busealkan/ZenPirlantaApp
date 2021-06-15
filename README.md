@@ -4,11 +4,8 @@ Bu projede Zen Pırlanta örnek alınarak recyler viewlerde card itemlar kullan�
 
 ## Outputs
 <p>
-  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/h5190059busealkan/master/screens/E1_splash.png" alt="SS1"/>
-  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/h5190059busealkan/master/screens/E2_liste.png" alt="SS2"/>
-  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/h5190059busealkan/master/screens/E3_detay.png" alt="SS3"/>
-  <img height="200" width="250" src="https://raw.githubusercontent.com/busealkan/h5190059busealkan/master/screens/alert_internet.png" alt="SS4"/>
-  <img height="200" width="250" src="https://raw.githubusercontent.com/busealkan/h5190059busealkan/master/screens/alert_cikis.png" alt="SS5"/>
+  <img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/ZenPirlantaApp/master/screens/zenpirlanta.gif" alt="SS1"/>
+ 
 </p>
 
 
