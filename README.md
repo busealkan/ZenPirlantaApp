@@ -1,5 +1,5 @@
 ## Zen Pırlanta App 
-<p align="center"><img src="https://raw.githubusercontent.com/busealkan/ZenPirlantaApp/master/images/zenLogo/zenlogo.jpg"/></p>
+<p align="center"><img height="400" width="250" src="https://raw.githubusercontent.com/busealkan/ZenPirlantaApp/master/images/zenLogo/zenlogo.jpg"/></p>
 Bu projede Zen Pırlanta örnek alınarak recyler viewlerde card itemlar kullanılarak kategoriler ve ürünler listelenmiştir ayrıca detay sayfasında ürün adı, fiyatı, kodu, hangi seriden olduğu taş büyüklüğü, taş adeti hakkında bilgiler verilmiştir.
 
 ## Outputs
