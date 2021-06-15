@@ -11,14 +11,14 @@ Bu projede Zen Pırlanta örnek alınarak recyler viewlerde card itemlar kullan�
 
 ## Clean Simple Architecture
 <p><img align="left" width="244px"; src="https://raw.githubusercontent.com/busealkan/ZenPirlantaApp/master/images/mvmm/mvmm.png"/></p>
-<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></br></br></br></br></br></br></br></br></br>         
 
 ## Libraries and Tools 
 <li><a href="https://developer.android.com/kotlin/coroutinesa">Coroutine</a></li>
 <li><a href="https://square.github.io/retrofit/">Retrofit2</a></li>
 <li><a href="https://developer.android.com/reference/android/arch/lifecycle/Observer">Observer</a></li> 
 <li><a href="https://bumptech.github.io/glide/doc/download-setup.html">Glide</a></li>
-<li><a href="https://square.github.io/okhttp/">OkHttp</a></li>   
+<li><a href="https://square.github.io/okhttp/">OkHttp</a></li>
 
 
 
