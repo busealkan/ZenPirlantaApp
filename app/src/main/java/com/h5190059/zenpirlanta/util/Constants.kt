@@ -1,7 +1,7 @@
 package com.h5190059.zenpirlanta.util
 
 object Constants {
-          val  TIMER_INTERVAL = 1000
+     val  TIMER_INTERVAL = 1000
      val  TIMER_MILLIS_IN_FUTURE= 3000
 
      val BASE_URL="https://raw.githubusercontent.com/busealkan/ZenPirlantaApp/master/data/"
