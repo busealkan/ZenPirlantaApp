@@ -19,7 +19,8 @@ object Constants {
      val LOCALE = "TR-tr"
 
      val SPAN_COUNT=2
-     val btnFavoriBg1=1
-     val btnFavoriBg2=2
-
+     val BTN_FAVORI_BG1=1
+     val BTN_FAVORI_BG2=2
+     val ARTAN_SIRALAMA=0
+     val AZALAN_SIRALAMA=1
 }

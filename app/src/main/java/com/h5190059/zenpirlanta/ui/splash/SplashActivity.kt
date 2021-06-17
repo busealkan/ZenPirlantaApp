@@ -8,7 +8,7 @@ import com.h5190059.zenpirlanta.R
 import com.h5190059.zenpirlanta.databinding.ActivitySplashBinding
 import com.h5190059.zenpirlanta.ui.login.LoginActivity
 import com.h5190059.zenpirlanta.util.*
-import com.h5190059.zenpirlanta.util.AlertUtil.AlertSecilen
+import com.h5190059.zenpirlanta.util.AlertUtil.AlertDialogSecilen
 
 
 
@@ -48,7 +48,7 @@ class SplashActivity : AppCompatActivity() {
     }
 
     private fun internetAlert() {
-        AlertUtil.alertGoster(this@SplashActivity, R.style.AlertDialogTheme, resources.getDrawable(R.drawable.interneticon), resources.getString(R.string.alertTitle), resources.getString(R.string.alertMessage), resources.getString(R.string.alertNegativeButon), resources.getString(R.string.alertPozitiveButon),AlertSecilen.INTERNET)
+        AlertUtil.alertDialogGoster(this@SplashActivity, R.style.AlertDialogTheme, resources.getDrawable(R.drawable.interneticon), resources.getString(R.string.alertTitle), resources.getString(R.string.alertMessage), resources.getString(R.string.alertNegativeButon), resources.getString(R.string.alertPozitiveButon),AlertDialogSecilen.INTERNET)
     }
 
     private fun secondActivity() {

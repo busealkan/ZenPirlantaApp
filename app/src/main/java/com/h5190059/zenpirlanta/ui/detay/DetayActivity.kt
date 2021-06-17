@@ -55,14 +55,14 @@ class DetayActivity : AppCompatActivity() {
     }
 
     private fun favoriBgDegistir(buttonBackground:Int) {
-        if(buttonBackground==Constants.btnFavoriBg1){
-            this.buttonBackground =Constants.btnFavoriBg2
+        if(buttonBackground==Constants.BTN_FAVORI_BG1){
+            this.buttonBackground =Constants.BTN_FAVORI_BG2
             binding.btnFavori.setBackgroundResource(R.drawable.btn_favori_red_design)
 
         }
         else{
             binding.btnFavori.setBackgroundResource(R.drawable.btn_favori_design)
-            this.buttonBackground=Constants.btnFavoriBg1
+            this.buttonBackground=Constants.BTN_FAVORI_BG1
         }
 
     }

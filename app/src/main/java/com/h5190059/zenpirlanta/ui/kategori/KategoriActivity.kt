@@ -16,7 +16,7 @@ import com.h5190059.zenpirlanta.ui.KategoriViewModel
 import com.h5190059.zenpirlanta.ui.urun.UrunActivity
 import com.h5190059.zenpirlanta.util.*
 import java.util.*
-import com.h5190059.zenpirlanta.util.AlertUtil.AlertSecilen
+import com.h5190059.zenpirlanta.util.AlertUtil.AlertDialogSecilen
 
 
 
@@ -128,8 +128,8 @@ class KategoriActivity : AppCompatActivity() {
 
 
     private fun cikisAlert() {
-        AlertUtil.alertGoster(this@KategoriActivity,
-            R.style.AlertDialogTheme,resources.getDrawable(R.drawable.exiticon), resources.getString(R.string.alertCikisTitle),resources.getString(R.string.alertCikisMessage),resources.getString(R.string.alertCikisNegativeButon),resources.getString(R.string.alertCikisPozitifButon),AlertSecilen.CIKIS
+        AlertUtil.alertDialogGoster(this@KategoriActivity,
+            R.style.AlertDialogTheme,resources.getDrawable(R.drawable.exiticon), resources.getString(R.string.alertCikisTitle),resources.getString(R.string.alertCikisMessage),resources.getString(R.string.alertCikisNegativeButon),resources.getString(R.string.alertCikisPozitifButon),AlertDialogSecilen.CIKIS
         )
     }
 }
